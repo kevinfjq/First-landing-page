@@ -7,7 +7,6 @@
 }
 
 body{
-    background-color: #48f;
     font-family: 'Roboto Condensed';
 }
 
@@ -87,6 +86,7 @@ img{
     border-radius: 5px;
     border: none;
     font-size: 20px;
+    font-weight: bold;
 }
 
 .random {
@@ -188,7 +188,22 @@ img{
     background-color: #3882f6;
     border: #eee 3px solid;
     color: #eee;
-    padding: 8px 50px;
+    padding: 8px 45px;
     border-radius: 8px;
     font-weight: bold;
+}
+
+.float-box button:active{
+    background-color: #1660d4;
+}
+
+.footer .container{
+    width: 100%;
+    padding: 0;
+    background-color: #1f2937;
+    color: #eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 45px 0;
 }
